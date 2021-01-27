@@ -41,6 +41,7 @@
 
 				get_template_part( 'template-parts/footer/site', 'info' );
 				?>
+        
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->

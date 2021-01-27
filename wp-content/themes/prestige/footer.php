@@ -10,6 +10,32 @@
  */
 ?>
     <footer id="colophon" class="site-footer" role="contentinfo">
+        <!-- 電話番号追加 -->
+        <div class="footer-tell">
+          <div class="footer-tell-flex">
+            <img class="footer-tell-logo" src="/wp-content/themes/prestige/img/logo.png" alt="prestige">
+            <div class="footer-tell-txtbox">
+              <a class="footer-tell-nam" href="tel:092-588-5656">
+                <i class="fa fas fa-phone"></i>
+                092-588-5656
+              </a>
+              <p>
+                平日9:00〜19:00<span>日祝10:00〜18:00</span>
+              </p>
+              <p>
+                定休日：火曜日（毎月の最終火曜日は通常営業）
+              </p>
+              <p>
+                〒816-0931　福岡県大野城市筒井1-1-34<br class="sp">
+                <a href="https://goo.gl/maps/c1WXdnJMuL4ddtiu5" target="_blank">【googlemapを見る】</a>
+              </p>
+              <p>
+              </p>
+                
+            </div>
+          </div>
+        </div>
+        <!-- ----------- -->
         <?php
         $onepress_btt_disable = get_theme_mod('onepress_btt_disable');
         $onepress_social_footer_title = get_theme_mod('onepress_social_footer_title', esc_html__('Keep Updated', 'onepress'));
