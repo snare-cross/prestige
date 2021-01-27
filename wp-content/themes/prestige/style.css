@@ -4574,6 +4574,10 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
     margin-bottom: 0;
   }
   
+  .blog-contact-txt3{
+    margin-bottom: 25px;
+  }
+  
   .footer-tell{
     color: #fff;
     background-color: #222222;
