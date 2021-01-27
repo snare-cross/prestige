@@ -4400,6 +4400,8 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
     position: relative;
     border: 1px solid #ebebeb;
     padding-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .blog-contact .sp{
@@ -4412,11 +4414,29 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   
   .contact-flex-sp{
     display: flex;
+    font-size: 14px;
+    justify-content: center;
   }
   
   .blog-contact-txt1{
     font-size: 14px;
     font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .blog-contact .contact-tell{
+    color: #333333;
+    border: 1px solid #ebebeb;
+    width: 45%;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    padding: 8px 0 4px 0;
+  }
+  
+  .blog-contact .contact-tell[href^="tel:"]{
+    pointer-events: none;
   }
   
   .blog-contact a{
@@ -4424,42 +4444,38 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
     border: 1px solid #ebebeb;
     letter-spacing: 2px;
     width: 45%;
-    margin: 0 auto;
-    padding: 10px 33px;
     font-weight: 700;
   }
   
-  .blog-contact .contact-tell{
-    font-size: 22px;
-  }
-  
   .blog-contact .contact-form{
-    font-size: 16px;
-  }
+    font-size: 22px;
+    padding-top: 6px;
+    padding-left: 2px;
+    letter-spacing: 1px;
+    height: 68px;
+    margin-left: 23px;
+   }
   
-  .blog-contact .contact-form::after{
-    content: '※ご返答にお時間を頂く事もございます';
+  .blog-contact .contact-form span{
     color: #333333;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 300;
-    letter-spacing: 0;
+    letter-spacing: 2px;
     display: block;
+    margin-top: -5px;
+    margin-right: 10px;
   }
   
   .contact-flex-sp p{
-    margin: 20px 5px 25px;
+    margin: 2px 6px 25px;
     letter-spacing: 1px;
-  }
-  
-  .contact-flex-sp p:nth-of-type(1){
-    margin-left: 28px;
   }
 
   .footer-tell{
     color: #fff;
     background-color: #222222;
     border-bottom: 1px solid #fff;
-    padding: 35px 0;
+    padding: 30px 0;
   }
   
   .footer-tell .sp{
@@ -4469,13 +4485,12 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   .footer-tell-flex{
     display: flex;
     align-items: center;
-    margin: 0 10%;
+    justify-content: center;
   }  
 
   .footer-tell-logo{
     height: 30px;
-    margin-left: 15%;
-    margin-right: 5%;
+    margin-right: 7%;
   }
   
   .footer-tell .footer-tell-flex a{
@@ -4484,12 +4499,17 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
 
   .footer-tell .footer-tell-flex p{
     margin-bottom: 0;
+    letter-spacing: 2px;
+  }
+  
+  .footer-tell .footer-tell-flex p span{
+    margin-left: 15px;
   }
 
   .footer-tell-nam{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
   }
 
   
@@ -4501,7 +4521,8 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
     position: relative;
     border: 1px solid #ebebeb;
     padding-top: 25px;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 40px;
   }
   
   .contact-flex{
@@ -4512,6 +4533,7 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   .blog-contact-txt1{
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 20px;
   }
   
   .blog-contact a{
@@ -4527,15 +4549,14 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   
   .blog-contact .contact-tell{
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   .blog-contact .contact-form{
     font-size: 16px;
   }
   
-  .blog-contact .contact-form::after{
-    content: '※ご返答にお時間を頂く事もございます';
+  .blog-contact .contact-form span{
     color: #333333;
     font-size: 11px;
     font-weight: 300;
@@ -4550,6 +4571,7 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   .blog-contact-txt2{
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 0;
   }
   
   .footer-tell{
@@ -4562,7 +4584,7 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   .footer-tell-flex{
     display: flex;
     align-items: center;
-    margin: 0 10%;
+    justify-content: center;
   }  
 
   .footer-tell-logo{
@@ -4576,6 +4598,10 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
 
   .footer-tell .footer-tell-flex p{
     margin-bottom: 0;
+  }
+  
+  .footer-tell .footer-tell-flex p span{
+    margin-left: 15px;
   }
 
   .footer-tell-nam{
@@ -4593,7 +4619,8 @@ textarea, input[type="date"], input[type="datetime"], input[type="datetime-local
   
   .footer-tell-logo{
     margin-bottom: 10px;
-    margin-right: 25%;
+    margin-right: 30%;
   }
+
 }
 /*---------------------------*/

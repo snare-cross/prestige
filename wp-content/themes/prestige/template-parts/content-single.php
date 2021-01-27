@@ -30,7 +30,7 @@
     <!-- 電話番号、お問い合わせフォーム -->
     <div class="blog-contact">
       <p class="blog-contact-txt1">
-        ハイエースに関するお困りごと、福岡の専門店プレステージに<br class="sp">お気軽にご相談ください
+        ハイエースに関するお困りごと、福岡の専門店<br class="sp">プレステージにお気軽にご相談ください
       </p>
       <div class="contact-flex">
         <a class="contact-tell" href="tel:092-588-5656">
@@ -40,6 +40,7 @@
         <a class="contact-form" href="/contact">
           <i class="fa fas fa-envelope"></i>
           フォームでの無料相談
+          <span>※ご返答にお時間を頂く事もございます</span>
         </a>
       </div>
       <div class="contact-flex-sp">

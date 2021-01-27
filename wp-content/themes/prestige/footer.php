@@ -15,10 +15,10 @@
           <div class="footer-tell-flex">
             <img class="footer-tell-logo" src="/wp-content/themes/prestige/img/logo.png" alt="prestige">
             <div class="footer-tell-txtbox">
-              <a class="footer-tell-nam" href="tel:092-588-5656">
+              <p class="footer-tell-nam">
                 <i class="fa fas fa-phone"></i>
                 092-588-5656
-              </a>
+              </p>
               <p>
                 平日9:00〜19:00<span>日祝10:00〜18:00</span>
               </p>
@@ -27,11 +27,8 @@
               </p>
               <p>
                 〒816-0931　福岡県大野城市筒井1-1-34<br class="sp">
-                <a href="https://goo.gl/maps/c1WXdnJMuL4ddtiu5" target="_blank">【googlemapを見る】</a>
+                <a href="https://goo.gl/maps/HPXrBWbik4HKgWmo7" target="_blank">【googlemapを見る】</a>
               </p>
-              <p>
-              </p>
-                
             </div>
           </div>
         </div>
